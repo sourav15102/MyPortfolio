@@ -1,30 +1,138 @@
 {
-    "skills": [
-      {
-        "id": "1",
-        "src": "./img/product-chain-1.png",
-        "title": "Front-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "2",
-        "src": "./img/tag-1.png",
-        "title": "Back-End",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "3",
-        "src": "./img/feather-pen-2.png",
-        "title": "UI & UX Design",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      },
-      {
-        "id": "4",
-        "src": "./img/feather-pen-1.png",
-        "title": "Webflow Development",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-      }
-    ],
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Java",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "2",
+      "src": "./img/product-chain-2.png",
+      "title": "Spring Boot",
+      "description": "Description for Spring Boot skill."
+    },
+    {
+      "id": "3",
+      "src": "./img/product-chain-3.png",
+      "title": "MariaDB",
+      "description": "Description for MariaDB skill."
+    },
+    {
+      "id": "4",
+      "src": "./img/product-chain-4.png",
+      "title": "Javadoc",
+      "description": "Description for Javadoc skill."
+    },
+    {
+      "id": "5",
+      "src": "./img/product-chain-5.png",
+      "title": "Swagger",
+      "description": "Description for Swagger skill."
+    },
+    {
+      "id": "6",
+      "src": "./img/product-chain-6.png",
+      "title": "JavaScript",
+      "description": "Description for JavaScript skill."
+    },
+    {
+      "id": "7",
+      "src": "./img/product-chain-7.png",
+      "title": "React",
+      "description": "Description for React skill."
+    },
+    {
+      "id": "8",
+      "src": "./img/product-chain-8.png",
+      "title": "C++",
+      "description": "Description for C++ skill."
+    },
+    {
+      "id": "9",
+      "src": "./img/product-chain-9.png",
+      "title": "MATLAB",
+      "description": "Description for MATLAB skill."
+    },
+    {
+      "id": "10",
+      "src": "./img/product-chain-10.png",
+      "title": "Git",
+      "description": "Description for Git skill."
+    },
+    {
+      "id": "11",
+      "src": "./img/product-chain-11.png",
+      "title": "JIRA",
+      "description": "Description for JIRA skill."
+    },
+    {
+      "id": "12",
+      "src": "./img/product-chain-12.png",
+      "title": "Confluence",
+      "description": "Description for Confluence skill."
+    },
+    {
+      "id": "13",
+      "src": "./img/product-chain-13.png",
+      "title": "Docker",
+      "description": "Description for Docker skill."
+    },
+    {
+      "id": "14",
+      "src": "./img/product-chain-14.png",
+      "title": "JUnit",
+      "description": "Description for JUnit skill."
+    },
+    {
+      "id": "15",
+      "src": "./img/product-chain-15.png",
+      "title": "AWS",
+      "description": "Description for AWS skill."
+    },
+    {
+      "id": "16",
+      "src": "./img/product-chain-16.png",
+      "title": "GCP",
+      "description": "Description for GCP skill."
+    },
+    {
+      "id": "17",
+      "src": "./img/product-chain-17.png",
+      "title": "SDLC",
+      "description": "Description for SDLC skill."
+    },
+    {
+      "id": "18",
+      "src": "./img/product-chain-18.png",
+      "title": "Agile",
+      "description": "Description for Agile skill."
+    },
+    {
+      "id": "19",
+      "src": "./img/product-chain-19.png",
+      "title": "Problem Solving",
+      "description": "Description for Problem Solving skill."
+    },
+    {
+      "id": "20",
+      "src": "./img/product-chain-20.png",
+      "title": "OOPs",
+      "description": "Description for OOPs skill."
+    },
+    {
+      "id": "21",
+      "src": "./img/product-chain-21.png",
+      "title": "Refactoring",
+      "description": "Description for Refactoring skill."
+    },
+    {
+      "id": "22",
+      "src": "./img/product-chain-22.png",
+      "title": "Linux",
+      "description": "Description for Linux skill."
+    }
+  ],
     "portfolio": [
       {
         "id": "1",
@@ -72,6 +180,46 @@
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
         "author_name": "Kathryn Murphy",
         "author_designation": "McDonald's"
+      }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "title": "Code Labellar",
+        "gsrc": "https://github.com/sourav15102/CodeLabeller",
+        "dsrc": "",
+        "description": "Web application enabling admins to create surveys and students to review and tag code snippets."
+      },
+      {
+        "id": "2",
+        "title": "Trivia Game",
+        "gsrc": "https://github.com/sourav15102/Trivia-Game",
+        "dsrc": "https://drive.google.com/file/d/1J4nOjxKud8gAsWOPWmI3dBZdb9OdnPwD/view?usp=drive_link",
+        "description": "Created a robust multiplayer quiz game on AWS and GCP, promoting real-time competition against the system."
+      },
+      {
+        "id": "3",
+        "title": "Course Alert",
+        "gsrc": "https://github.com/sourav15102/Course-Alert",
+        "dsrc": "https://drive.google.com/file/d/1DUe5HaBMwypBVs-k77bsulwgsdwdt5Vq/view?usp=drive_link",
+        "description": "Developed a cloud-based application that allows students to subscribe and receive customized updates"
+      }
+    ],
+    "experience": [
+      {
+        "id": "1",
+        "title": "Language-Independent Framework",
+        "description": "Designed and developed a Language-Independent baseline generation tool using Java and MATLAB, adhering to MathWorks Advisory Board (MAB) guidelines. Refactored code to reduced technical debt. Authored article of Confluence pages. Tool fixed the issue of redundant baselines by 25%."
+      },
+      {
+        "id": "2",
+        "title": "Functional Block Enhancement",
+        "description": "Troubleshooted and resolved a persistent MATLAB Function block’s dimension issue using Java, enhancing Simulink-MATLAB integration and reducing bugs by about 40%."
+      },
+      {
+        "id": "3",
+        "title": "Activity Scheduler",
+        "description": "Collaboratively created REST APIs and JWT authentication system using Spring framework(Java), attained code coverage of 80% using JUnit, followed Agile to deliver quality product, documented using Confluence pages, improved managerial oversight by tracking employees’ key-metrics."
       }
     ]
   }

@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 function Introduction() {
     return (
       <section id="heroSection" className="hero--section">
@@ -8,11 +10,11 @@ function Introduction() {
               <span className="hero--section-title--color">Software Developer</span>
             </h1>
             <p className="hero--section-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br /> Dolorum, quas. Amet soluta assumenda cum?
-            </p>
+              Master in Applied Computer Science student at Dalhousie University with 3.5 years of experience at MathWorks as a Software Engineer.
+            </p> 
           </div>
-          <button className="btn btn-primary">Get In Touch</button>
+          <br />
+          <a href="#Contact" className="btn btn-primary">Get In Touch</a>
         </div>
         <div className="hero--section--img">
             <div className="circle-photo">
