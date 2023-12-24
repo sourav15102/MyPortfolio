@@ -14,7 +14,18 @@ function Introduction() {
             </p> 
           </div>
           <br />
-          <a href="#Contact" className="btn btn-primary">Get In Touch</a>
+          <Link
+            onClick={closeMenu}
+            activeClass="navbar--active-content"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            to="Contact"
+            className="btn btn-outline-primary"
+          >
+            Get In Touch
+          </Link>
         </div>
         <div className="hero--section--img">
             <div className="circle-photo">
