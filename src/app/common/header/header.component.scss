@@ -1,0 +1,40 @@
+.profile {
+  display: flex;
+  align-items: center;
+  h2 {
+    color: rgb(255, 255, 255); // Set text color to white
+  }
+
+  img {
+    margin-right: 10px; // Added margin between image and text
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center; // Align items in the container horizontally
+  padding: 10px; // Added padding to container
+  overflow-x: auto; // Allow horizontal scrolling if content overflows
+  background-color: rgb(0, 0, 0); // Set container color as glassy black
+  font-family: 'Courier New', monospace;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end; // Changed from space-between to flex-end
+  margin-left: auto; // Move links to the right end of the container
+
+  ul {
+    display: flex;
+    li {
+      margin-right: 20px; // Added margin between list items
+      a {
+        color: rgb(255, 255, 255); // Color for links
+      }
+    }
+  }
+}

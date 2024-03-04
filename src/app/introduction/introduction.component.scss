@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: center; // Move img to left and bio to right
+  align-items: center;
+  height: 100vh; // Set container height to 100% of viewport height
+  background-color: rgb(0, 0, 0);
+
+  img {
+    height: 50%; // Set image height to 50% of container
+    border-radius: 30%; // Make the image more circular
+    animation: imgOverlapAndSlide 4s forwards; // Slower animation speed for image
+  }
+
+  .bio {
+    display: flex;
+    flex-direction: column;
+    color: white; // Set text color inside bio to white
+    font-family: 'Courier New', monospace; // Set font to match coder cmd vibe
+    animation: bioOverlapAndSlide 4s forwards; // Slower animation speed for bio
+
+    .icons {
+      display: flex;
+      justify-content: center; // Display all icons horizontally centered
+      margin-top: 30px; // Add margin on top of icons
+      a {
+        margin-right: 20px; // Add gap between each icon
+        fa-icon {
+          font-size: 24px;
+          color: red;
+        }
+      }
+    }
+  }
+}
+@keyframes imgOverlapAndSlide {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-20%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-20%); // Move image to left
+    opacity: 1;
+  }
+}
+
+@keyframes bioOverlapAndSlide {
+  0% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(20%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(20%); // Move bio to right
+    opacity: 1;
+  }
+}
+
+
