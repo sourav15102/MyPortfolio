@@ -14,13 +14,13 @@ export class ProjectService {
         name: 'Code Labellar',
         links: ['#', 'https://github.com/sourav15102/CodeLabeller'],
         description: 'Platform allowing admins to create and publish surveys and students to review and tag code smells.',
-        img: 'https://via.placeholder.com/300'
+        img: '../../assets/projects/codeLabellar.jpg'
       },
       {
         name: 'Trivia Game',
         links: ['https://drive.google.com/file/d/1J4nOjxKud8gAsWOPWmI3dBZdb9OdnPwD/view?usp=drive_link', 'https://github.com/sourav15102/Trivia-Game'],
         description: 'Multiplayer cloud-based quiz game.',
-        img: 'https://via.placeholder.com/300'
+        img: '../../assets/projects/triviaGame.jpg'
       },
       {
         name: 'Course Alert',

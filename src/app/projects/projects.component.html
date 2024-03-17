@@ -4,7 +4,7 @@
     <div class="project-carousel" #carousel>
       <div *ngFor="let project of projects" class="project-card">
         <!-- Project details here -->
-        <img [src]="project.img" alt="Project">
+        <img [src]="project.img" alt="Project" class="project-image">
         <h3>{{ project.name }}</h3>
         <p>{{ project.description | slice:0:50 }}...</p> <!-- Limiting description to 100 characters -->
         <div class="project-links">
