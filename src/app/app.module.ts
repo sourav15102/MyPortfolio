@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './common/header/header.component';
 import { IntroductionComponent } from './introduction/introduction.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     IntroductionComponent,
+    ProjectsComponent,
   ],
   imports: [
     BrowserModule,

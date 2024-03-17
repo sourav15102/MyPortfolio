@@ -1,0 +1,50 @@
+.project-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.project-window {
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center; /* Center children horizontally */
+}
+
+.project-carousel {
+  display: flex;
+}
+
+.project-card {
+  position: relative; /* Added to position project-links */
+  flex: 0 0 auto;
+  width: 300px;
+  margin-right: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 10px;
+
+  .project-links {
+    bottom: 20px; /* Updated gap from bottom to 20px */
+    left: 10px; /* Added gap from left */
+  }
+}
+
+.scroll-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+

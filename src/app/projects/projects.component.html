@@ -1,0 +1,19 @@
+<div class="project-container">
+  <button class="scroll-button left" (click)="scrollLeft()">&lt;</button>
+  <div class="project-window">
+    <div class="project-carousel" #carousel>
+      <div *ngFor="let project of projects" class="project-card">
+        <!-- Project details here -->
+        <img [src]="project.img" alt="Project">
+        <h3>{{ project.name }}</h3>
+        <p>{{ project.description | slice:0:50 }}...</p> <!-- Limiting description to 100 characters -->
+        <div class="project-links">
+          <a href="{{ project.links[0] }}" target="_blank">Demo</a>
+          <span style="margin-right: 10px;"></span> <!-- Adding space between Demo and GitHub -->
+          <a href="{{ project.links[1] }}" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="scroll-button right" (click)="scrollRight()" [disabled]="currentIndex === projects.length - visibleProjectsCount">&gt;</button>
+</div>
