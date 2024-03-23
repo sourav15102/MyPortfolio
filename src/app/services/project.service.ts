@@ -26,7 +26,7 @@ export class ProjectService {
         name: 'Course Alert',
         links: ['https://drive.google.com/file/d/1DUe5HaBMwypBVs-k77bsulwgsdwdt5Vq/view?usp=drive_link', 'https://github.com/sourav15102/Course-Alert'],
         description: 'Cloud-based application for students to subscribe and receive customized update notifications.',
-        img: 'https://via.placeholder.com/300'
+        img: '../../assets/projects/courseAlert.png'
       }
     ];
   }

@@ -1,60 +1,25 @@
 .project-container {
   position: relative;
   overflow: hidden;
-  background-color: #283858; /* Changed background color to a color that goes well with black */
-  padding: 10px; /* Added padding to parent container */
-}
-
-.project-window {
-  width: 100%;
-  overflow-x: hidden;
   display: flex;
-  justify-content: center; /* Center children horizontally */
-}
-
-.project-carousel {
-  display: flex;
+  justify-content: center; /* Aligning content towards the middle */
 }
 
 .project-card {
-  position: relative; /* Added to position project-links */
-  flex: 0 0 auto;
-  width: 300px;
-  height: 300px; /* Set height same as width */
+  width: 27vw; /* Adjusting the width of the project card based on viewport width */
+  height: 55vh; /* Adjusting the height of the project card based on viewport height */
   margin-right: 20px;
   background-color: #f5f5f5;
   border-radius: 8px;
   padding: 10px;
-
-  .project-links {
-    bottom: 20px; /* Updated gap from bottom to 20px */
-    left: 10px; /* Added gap from left */
-  }
-
-  .project-image {
-    width: 100%; /* Limit image width to 100% of parent */
-    height: 50%; /* Set image height to 50% of parent */
-  }
+  display: flex;
+  flex-direction: column;
 }
 
-.scroll-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgb(184, 241, 241); /* Changed scroll button color to cyan */
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  z-index: 1;
-  height: 50%; /* Set height to full */
+.project-card .project-image {
+  height: 50%;
 }
 
-.left {
-  left: 10px;
+.custom-carousel {
+  background-color: red; /* Making custom-carousel red */
 }
-
-.right {
-  right: 10px;
-}
-
-
