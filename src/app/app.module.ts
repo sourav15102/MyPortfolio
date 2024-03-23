@@ -8,6 +8,8 @@ import { HeaderComponent } from './common/header/header.component';
 import { IntroductionComponent } from './introduction/introduction.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { CarouselModule } from 'primeng/carousel';
+import { GalleriaModule } from 'primeng/galleria'; // Added GalleriaModule
+import { CardModule } from 'primeng/card'; // Added CardModule
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { CarouselModule } from 'primeng/carousel';
     AppRoutingModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
-    CarouselModule
+    CarouselModule,
+    CardModule // Added CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
