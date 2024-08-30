@@ -45,14 +45,15 @@ function App() {
           <div className="container max-w-full mx-auto px-4 md:px-8">
             <div className="flex flex-col items-center space-y-8 text-center">
               <div className="space-y-4">
-                
                 <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl/none text-green-400">
                   {text}<span className="animate-pulse">|</span>
                 </h1>
+                <br />
                 <p className="mx-auto max-w-[1000px] text-gray-400 text-2xl md:text-3xl">
                   Canada Revenue Agency | Ex-MathWorks
                 </p>
               </div>
+              <br />
               <div className="space-x-6">
                 <a href="#contact" className="inline-flex items-center justify-center rounded-md text-xl font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-green-700 text-white hover:bg-green-600 h-14 px-8 py-3">
                   Contact Me
@@ -60,6 +61,23 @@ function App() {
                 <a href="#projects" className="inline-flex items-center justify-center rounded-md text-xl font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background border border-input hover:bg-accent hover:text-accent-foreground h-14 px-8 py-3 border-green-700 text-green-400 hover:bg-green-800">
                   View Projects
                 </a>
+              </div>
+              <div>
+              <br />
+              <nav className="flex gap-6 sm:gap-8 mt-4 sm:mt-0">
+                <a className="text-gray-500 hover:text-green-400 transition-colors" href="https://github.com/sourav15102" target="_blank" rel="noopener noreferrer">
+                  <GithubIcon className="h-8 w-8" />
+                  <span className="sr-only">GitHub</span>
+                </a>
+                <a className="text-gray-500 hover:text-green-400 transition-colors" href="https://www.linkedin.com/in/sghai96" target="_blank" rel="noopener noreferrer">
+                  <LinkedinIcon className="h-8 w-8" />
+                  <span className="sr-only">LinkedIn</span>
+                </a>
+                <a className="text-gray-500 hover:text-green-400 transition-colors" href="mailto:souravghai96@gmail.com">
+                  <MailIcon className="h-8 w-8" />
+                  <span className="sr-only">Email</span>
+                </a>
+              </nav>
               </div>
             </div>
           </div>
@@ -139,9 +157,8 @@ function App() {
         </section>
       </main>
       <footer className="w-full py-8 border-t border-gray-800">
-        <div className="container max-w-full mx-auto px-4 md:px-8 flex flex-col sm:flex-row justify-between items-center">
-          <p className="text-base text-gray-500">© 2023 Sourav Ghai. All rights reserved.</p>
-          <nav className="flex gap-6 sm:gap-8 mt-4 sm:mt-0">
+        <div className="container max-w-full mx-auto px-4 md:px-8 flex flex-col items-center">
+          <nav className="flex gap-6 sm:gap-8">
             <a className="text-gray-500 hover:text-green-400 transition-colors" href="https://github.com/sourav15102" target="_blank" rel="noopener noreferrer">
               <GithubIcon className="h-8 w-8" />
               <span className="sr-only">GitHub</span>
