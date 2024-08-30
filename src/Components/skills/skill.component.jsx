@@ -11,11 +11,11 @@ function SkillRating({ rating }) {
       {[...Array(5)].map((_, index) => (
         <span key={index}>
           {index < fullStars ? (
-            <Star className="w-4 h-4 text-yellow-400 fill-current" />
+            <Star className="w-5 h-5 text-yellow-400 fill-current" />
           ) : index === fullStars && hasHalfStar ? (
-            <StarHalf className="w-4 h-4 text-yellow-400 fill-current" />
+            <StarHalf className="w-5 h-5 text-yellow-400 fill-current" />
           ) : (
-            <Star className="w-4 h-4 text-gray-400" />
+            <Star className="w-5 h-5 text-gray-400" />
           )}
         </span>
       ))}
@@ -25,14 +25,14 @@ function SkillRating({ rating }) {
 
 function SkillCategory({ title, skills }) {
   return (
-    <div className="skill-block bg-gray-900 p-6 rounded-lg shadow-lg">
-      <h3 className="text-xl font-semibold text-green-400 mb-4">{title}</h3>
-      <div className="space-y-2">
+    <div className="skill-block bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-lg shadow-lg border border-green-500/30 hover:border-green-500/50 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-2xl">
+      <h3 className="text-3xl font-semibold text-green-400 mb-6 pb-2 border-b border-green-500/30">{title}</h3>
+      <div className="space-y-4">
         {skills.map((skill) => (
-          <div key={skill.name} className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <CheckIcon className="text-green-500 h-4 w-4" />
-              <span className="text-gray-300 text-sm">{skill.name}</span>
+          <div key={skill.name} className="flex items-center justify-between p-2 rounded-md hover:bg-gray-800/50 transition-colors duration-200">
+            <div className="flex items-center space-x-4">
+              <CheckIcon className="text-green-500 h-6 w-6" />
+              <span className="text-gray-300 text-xl">{skill.name}</span>
             </div>
             <SkillRating rating={skill.rating} />
           </div>
@@ -85,10 +85,10 @@ function SkillsSection() {
   ];
 
   return (
-    <section id="skills" className="w-full py-12 md:py-24 lg:py-32 bg-gray-800">
-      <div className="container max-w-6xl mx-auto px-4 md:px-6">
-        <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-center mb-8 text-green-400">Skills</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+    <section id="skills" className="w-full py-20 md:py-32 lg:py-48 bg-gray-900">
+      <div className="container max-w-full mx-auto px-4 md:px-8">
+        <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl text-center mb-16 text-green-400">Skills</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
           {skillCategories.map((category) => (
             <SkillCategory key={category.title} title={category.title} skills={category.skills} />
           ))}
