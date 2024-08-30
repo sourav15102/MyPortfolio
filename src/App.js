@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { GithubIcon, LinkedinIcon, MailIcon, CheckIcon, ExternalLinkIcon, DownloadIcon } from 'lucide-react';
+import { GithubIcon, LinkedinIcon, MailIcon, CheckIcon, ExternalLinkIcon, DownloadIcon, CodeIcon } from 'lucide-react';
 import './App.css'
 import SkillsSection from './Components/skills/skill.component';
+import Timeline from './Components/timeline/timeline.component';
 
 function App() {
   const [text, setText] = useState('');
@@ -24,6 +25,7 @@ function App() {
           </a>
           <nav className="flex items-center gap-6 sm:gap-8">
             <a href="#about" className="text-lg font-medium hover:text-green-400 transition-colors">About</a>
+            <a href="#timeline" className="text-lg font-medium hover:text-green-400 transition-colors">Experience</a>
             <a href="#skills" className="text-lg font-medium hover:text-green-400 transition-colors">Skills</a>
             <a href="#projects" className="text-lg font-medium hover:text-green-400 transition-colors">Projects</a>
             <a href="#contact" className="text-lg font-medium hover:text-green-400 transition-colors">Contact</a>
@@ -43,6 +45,7 @@ function App() {
           <div className="container max-w-full mx-auto px-4 md:px-8">
             <div className="flex flex-col items-center space-y-8 text-center">
               <div className="space-y-4">
+                
                 <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl/none text-green-400">
                   {text}<span className="animate-pulse">|</span>
                 </h1>
@@ -69,6 +72,7 @@ function App() {
             </p>
           </div>
         </section>
+        <Timeline />
         <SkillsSection />
         <section id="projects" className="w-full py-20 md:py-32 lg:py-48 bg-gray-800">
           <div className="container max-w-full mx-auto px-4 md:px-8">
