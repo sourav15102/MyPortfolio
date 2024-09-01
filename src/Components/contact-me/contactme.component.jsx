@@ -12,7 +12,7 @@ const ContactMe = () => {
   ];
 
   return (
-    <footer className="w-full py-12 bg-gray-900">
+    <footer id="contact" className="w-full py-12 bg-gray-900">
       <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl text-center mb-12 text-green-400">Contact Me</h2>
       <div className="container max-w-full mx-auto px-4 md:px-8">
         <div className="flex justify-center space-x-8">
