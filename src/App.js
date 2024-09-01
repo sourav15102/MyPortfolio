@@ -3,6 +3,7 @@ import { GithubIcon, LinkedinIcon, MailIcon, CheckIcon, ExternalLinkIcon, Downlo
 import './App.css'
 import SkillsSection from './Components/skills/skill.component';
 import Timeline from './Components/timeline/timeline.component';
+import ContactMe from './Components/contact-me/contactme.component';
 
 function App() {
   const [text, setText] = useState('');
@@ -128,7 +129,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section id="contact" className="w-full py-20 md:py-32 lg:py-48">
+        {/* <section id="contact" className="w-full py-20 md:py-32 lg:py-48">
           <div className="container max-w-full mx-auto px-4 md:px-8">
             <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl text-center mb-12 text-green-400">Contact Me</h2>
             <form className="max-w-[800px] mx-auto space-y-6">
@@ -154,26 +155,9 @@ function App() {
               </button>
             </form>
           </div>
-        </section>
+        </section> */}
+        <ContactMe />
       </main>
-      <footer className="w-full py-8 border-t border-gray-800">
-        <div className="container max-w-full mx-auto px-4 md:px-8 flex flex-col items-center">
-          <nav className="flex gap-6 sm:gap-8">
-            <a className="text-gray-500 hover:text-green-400 transition-colors" href="https://github.com/sourav15102" target="_blank" rel="noopener noreferrer">
-              <GithubIcon className="h-8 w-8" />
-              <span className="sr-only">GitHub</span>
-            </a>
-            <a className="text-gray-500 hover:text-green-400 transition-colors" href="https://www.linkedin.com/in/sghai96" target="_blank" rel="noopener noreferrer">
-              <LinkedinIcon className="h-8 w-8" />
-              <span className="sr-only">LinkedIn</span>
-            </a>
-            <a className="text-gray-500 hover:text-green-400 transition-colors" href="mailto:souravghai96@gmail.com">
-              <MailIcon className="h-8 w-8" />
-              <span className="sr-only">Email</span>
-            </a>
-          </nav>
-        </div>
-      </footer>
     </div>
   );
 }
