@@ -93,7 +93,7 @@ function App() {
         </section>
         <Timeline />
         <SkillsSection />
-        <section id="projects" className="w-full py-20 md:py-32 lg:py-48 bg-gray-800">
+        <section id="projects" className="w-full py-20 md:py-32 lg:py-48 bg-gray-900">
           <div className="container max-w-full mx-auto px-4 md:px-8">
             <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl text-center mb-12 text-green-400">Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -114,7 +114,7 @@ function App() {
                   link: "https://github.com/sourav15102/Course-Alert",
                 },
               ].map((project, index) => (
-                <div key={index} className="bg-gray-900 border border-gray-800 rounded-lg overflow-hidden">
+                <div key={index} className="bg-gray-800 border border-gray-800 rounded-lg overflow-hidden">
                   <div className="p-8">
                     <h3 className="text-2xl font-semibold text-green-400 mb-4">{project.title}</h3>
                     <p className="text-gray-400 text-lg mb-6">{project.description}</p>
@@ -129,33 +129,6 @@ function App() {
             </div>
           </div>
         </section>
-        {/* <section id="contact" className="w-full py-20 md:py-32 lg:py-48">
-          <div className="container max-w-full mx-auto px-4 md:px-8">
-            <h2 className="text-5xl font-bold tracking-tighter sm:text-6xl text-center mb-12 text-green-400">Contact Me</h2>
-            <form className="max-w-[800px] mx-auto space-y-6">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="flex h-14 w-full rounded-md border border-input bg-background px-6 py-2 text-lg ring-offset-background file:border-0 file:bg-transparent file:text-lg file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-gray-800 border-gray-700 text-gray-300 placeholder-gray-500"
-              />
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="flex h-14 w-full rounded-md border border-input bg-background px-6 py-2 text-lg ring-offset-background file:border-0 file:bg-transparent file:text-lg file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-gray-800 border-gray-700 text-gray-300 placeholder-gray-500"
-              />
-              <textarea
-                placeholder="Your Message"
-                className="flex w-full rounded-md border border-input bg-background px-6 py-2 text-lg ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 bg-gray-800 border-gray-700 text-gray-300 placeholder-gray-500 min-h-[150px]"
-              ></textarea>
-              <button
-                type="submit"
-                className="inline-flex items-center justify-center rounded-md text-xl font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background bg-green-700 text-white hover:bg-green-600 h-14 px-8 py-2 w-full"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
-        </section> */}
         <ContactMe />
       </main>
     </div>

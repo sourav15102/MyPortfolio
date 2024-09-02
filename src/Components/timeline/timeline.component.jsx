@@ -47,6 +47,12 @@ function Timeline() {
               description="Created a baseline generation tool in Java, reducing redundant baselines by 25% and technical debt through code refactoring, collaborated with QA to enhance Simulink-MATLAB integration and reduce bugs by 40%, and developed an internal managerial tool with REST APIs and JWT authentication using Spring Framework, achieving 80% code coverage with JUnit."
               isLeft={false}
             />
+            <TimelineItem 
+              year="2015 - 2019"
+              company="IIIT - Delhi"
+              description="You completed your Bachelor of Technology (B.Tech) in Computer Science and Engineering from Indraprastha Institute of Information Technology, Delhi (IIIT-Delhi) between July 2015 and August 2019, achieving a GPA of 7.95 out of 10."
+              isLeft={true}
+            />
           </div>
         </div>
       </div>
