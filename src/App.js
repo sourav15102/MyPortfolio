@@ -31,7 +31,7 @@ function App() {
             <a href="#projects" className="text-lg font-medium hover:text-green-400 transition-colors">Projects</a>
             <a href="#contact" className="text-lg font-medium hover:text-green-400 transition-colors">Contact</a>
             <a 
-              href="./assets/Sourav_Resume.pdf" 
+              href="/Sourav_Resume.pdf" 
               download 
               className="flex items-center justify-center px-4 py-2 bg-white text-gray-900 rounded-md text-lg font-medium hover:bg-gray-100 transition-colors"
             >
