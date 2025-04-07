@@ -30,7 +30,13 @@ function Timeline() {
           <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-green-500/30"></div>
           <div className="space-y-20">
             <TimelineItem 
-              year="2024 - Current"
+              year="2025 - "
+              company="Resmed"
+              description=""
+              isLeft={true}
+            />
+            <TimelineItem 
+              year="2024 - 2025"
               company="Canada Revenue Agency"
               description="Contributed to the File a Formal Dispute (FFD) release by coordinating teams to engineer microservice-based APIs with Spring Boot, developing Angular components, and integrating internationalization; engineered scalable solutions reducing load by 30% and improved security/performance; developed Playwright and JUnit automated tests achieving 90% coverage, reducing manual testing time by 40%, and increasing bug detection by 25%."
               isLeft={false}

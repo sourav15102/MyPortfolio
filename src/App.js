@@ -51,7 +51,7 @@ function App() {
                 </h1>
                 <br />
                 <p className="mx-auto max-w-[1000px] text-gray-400 text-2xl md:text-3xl">
-                  Canada Revenue Agency | Ex-MathWorks
+                  Resmed | Ex-MathWorks
                 </p>
               </div>
               <br />
