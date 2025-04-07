@@ -32,7 +32,7 @@ function Timeline() {
             <TimelineItem 
               year="2025 - "
               company="Resmed"
-              description=""
+              description="Developing and maintaining robust applications primarily using Spring Boot and Java. My role involves collaborating with cross-functional teams to deliver scalable, high-quality software solutions that enhance healthcare technology"
               isLeft={true}
             />
             <TimelineItem 
